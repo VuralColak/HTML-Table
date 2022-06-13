@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: bisque;
 
 }
@@ -21,6 +22,7 @@ body {
 table {
     border: solid 2px cornflowerblue;
     border-spacing: 0;
+    border-collapse: collapse;
 }
 
 th {
