@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+
+}
+
+table {
+    border: solid 2px cornflowerblue;
+    border-spacing: 10px;
+}
+
+th {
+    padding: 5px;
+    border-bottom: 5px solid chocolate;
+}
+
+
+td {
+    padding: 5px;
+    border-bottom: 5px solid #ccc;
+}
